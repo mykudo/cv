@@ -546,7 +546,9 @@ img {
 .hero-visual {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 20px;
+    width: 100%;
+    max-width: 380px;
 }
 
 .profile-card {
@@ -555,13 +557,15 @@ img {
     backdrop-filter: blur(20px);
     border: 1px solid var(--border-light);
     border-radius: var(--radius-xl);
-    padding: 20px;
+    padding: 16px;
     box-shadow: var(--shadow-lg);
 }
 
 .profile-image {
     width: 100%;
-    aspect-ratio: 4/5;
+    max-width: 280px;
+    margin: 0 auto;
+    aspect-ratio: 3/4;
     border-radius: var(--radius-lg);
     overflow: hidden;
     position: relative;
@@ -605,7 +609,8 @@ img {
 .stats-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 16px;
+    gap: 12px;
+    width: 100%;
 }
 
 .stat-card {
