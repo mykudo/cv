@@ -272,10 +272,10 @@ class I18n {
             this.currentLang = savedLang;
         } else {
             // Detect browser language (e.g., 'fr-FR' -> 'fr', 'en-US' -> 'en')
-            const browserLang = navigator.language || navigator.userLanguage || 'fr';
+            const browserLang = navigator.language || navigator.userLanguage || 'en';
             const langCode = browserLang.split('-')[0].toLowerCase();
-            // Only use 'en' if browser is English, otherwise default to 'fr'
-            this.currentLang = langCode === 'en' ? 'en' : 'fr';
+            // Only use 'fr' if browser is French, otherwise default to 'en'
+            this.currentLang = langCode === 'fr' ? 'fr' : 'en';
         }
         this.init();
     }
