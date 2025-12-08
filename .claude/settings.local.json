@@ -8,7 +8,12 @@
       "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" api repos/myKudo/cv/pages -X POST -F source[branch]=gh-pages -F source[path]=/)",
       "Bash(git add:*)",
       "Bash(git commit:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(where:*)",
+      "Bash(where convert:*)",
+      "Bash(winget list:*)",
+      "Bash(pip show:*)",
+      "Bash(pip install:*)"
     ],
     "deny": [],
     "ask": []
