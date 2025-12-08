@@ -531,13 +531,6 @@ img {
     object-fit: contain;
 }
 
-/* Dark logos need white background */
-.client-logo img.dark-logo {
-    background: white;
-    padding: 6px 10px;
-    border-radius: 8px;
-}
-
 /* Text-based client logos */
 .client-logo-text {
     display: flex;
