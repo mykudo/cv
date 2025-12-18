@@ -331,8 +331,8 @@ class I18n {
         const cvDownload = document.getElementById('cv-download');
         if (cvDownload) {
             const cvFiles = {
-                fr: 'CV Djilali SAHRAOUI.pdf',
-                en: 'CV Djilali SAHRAOUI EN.pdf'
+                fr: 'cv-djilali-sahraoui.pdf',
+                en: 'cv-djilali-sahraoui-en.pdf'
             };
             cvDownload.href = cvFiles[lang];
         }
