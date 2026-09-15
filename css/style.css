@@ -450,7 +450,7 @@ img {
 .profile-wrapper {
     position: relative;
     width: 100%;
-    max-width: 320px;
+    max-width: 240px;
 }
 
 .profile-wrapper img {
@@ -1467,7 +1467,7 @@ img {
     }
 
     .profile-wrapper {
-        max-width: 280px;
+        max-width: 200px;
         margin: 0 auto;
     }
 
