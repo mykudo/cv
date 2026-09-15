@@ -452,3 +452,13 @@ console.log('CV Djilali SAHRAOUI - Light Theme 4 (Tech Professional) Loaded');
     lb.addEventListener('click', close);
     document.addEventListener('keydown', e => { if (e.key === 'Escape' && !lb.hidden) close(); });
 })();
+
+/* Préchargement du diagramme HD au survol de la carte */
+document.querySelectorAll('[data-lightbox]').forEach(a => {
+    a.addEventListener('mouseenter', () => {
+        if (!a.dataset.preloaded) {
+            new Image().src = a.getAttribute('href');
+            a.dataset.preloaded = '1';
+        }
+    }, { once: false });
+});
