@@ -172,6 +172,7 @@
                 <li><a href="#about" class="nav-link" data-i18n="nav.about">Profil</a></li>
                 <li><a href="#skills" class="nav-link" data-i18n="nav.skills">Compétences</a></li>
                 <li><a href="#experience" class="nav-link" data-i18n="nav.experience">Expériences</a></li>
+                <li><a href="#realisations" class="nav-link" data-i18n="nav.works">Réalisations</a></li>
                 <li><a href="#education" class="nav-link" data-i18n="nav.education">Formation</a></li>
                 <li><a href="#contact" class="nav-link" data-i18n="nav.contact">Contact</a></li>
             </ul>
@@ -865,6 +866,72 @@
             </div>
         </div>
     </section>
+
+    <!-- Réalisations Section -->
+    <section id="realisations" class="section works">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">&lt;realisations&gt;</span>
+                <h2 class="section-title" data-i18n="works.title">Réalisations d'architecture</h2>
+                <p class="works-note" data-i18n="works.note">Schémas issus de missions réelles, anonymisés. Cliquer pour agrandir.</p>
+            </div>
+            <div class="works-grid">
+                <div class="work-card">
+                    <a href="img/realisations/plateforme-hybride-fabric-databricks.png" class="work-thumb" data-lightbox>
+                        <img src="img/realisations/plateforme-hybride-fabric-databricks.png" alt="Data Platform hybride Microsoft Fabric / Databricks" loading="lazy">
+                    </a>
+                    <div class="work-body">
+                        <h3 data-i18n="works.hybrid.title">Data Platform hybride Fabric / Databricks</h3>
+                        <p data-i18n="works.hybrid.desc">Mirroring zéro-ETL des bases opérationnelles vers OneLake, Lakehouse médaillon gouverné par Unity Catalog, restitution Power BI en Direct Lake.</p>
+                        <div class="timeline-tech">
+                            <span>Microsoft Fabric</span><span>Databricks</span><span>OneLake</span><span>Unity Catalog</span><span>Power BI</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-card">
+                    <a href="img/realisations/data-mesh-multidomaines.png" class="work-thumb" data-lightbox>
+                        <img src="img/realisations/data-mesh-multidomaines.png" alt="Data Mesh multi-domaines sur Databricks" loading="lazy">
+                    </a>
+                    <div class="work-body">
+                        <h3 data-i18n="works.mesh.title">Data Mesh multi-domaines sur Databricks</h3>
+                        <p data-i18n="works.mesh.desc">Domaines data autonomes (monétique, bénéficiaires, loyalty) en architecture médaillon, publication et consommation des data products via Unity Catalog.</p>
+                        <div class="timeline-tech">
+                            <span>Databricks</span><span>Data Mesh</span><span>Medallion</span><span>Unity Catalog</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-card">
+                    <a href="img/realisations/plateforme-event-sourcing.png" class="work-thumb" data-lightbox>
+                        <img src="img/realisations/plateforme-event-sourcing.png" alt="Plateforme référentielle event-sourcée sur Azure" loading="lazy">
+                    </a>
+                    <div class="work-body">
+                        <h3 data-i18n="works.es.title">Référentiel métier event-sourcé sur Azure</h3>
+                        <p data-i18n="works.es.desc">Référentiel critique d'une ligue sportive : Event Sourcing, read models SQL, intégration fédération, messagerie Event Grid, observabilité et décisions d'architecture tracées.</p>
+                        <div class="timeline-tech">
+                            <span>Azure</span><span>Event Sourcing</span><span>CQRS</span><span>Event Grid</span><span>APIM</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-card">
+                    <a href="img/realisations/serverless-assessment.png" class="work-thumb" data-lightbox>
+                        <img src="img/realisations/serverless-assessment.png" alt="Étude d'éligibilité serverless Databricks" loading="lazy">
+                    </a>
+                    <div class="work-body">
+                        <h3 data-i18n="works.sls.title">Assessment serverless Databricks (FinOps)</h3>
+                        <p data-i18n="works.sls.desc">Étude d'arbitrage jobs continus vs planifiés : éligibilité serverless par taille de workload et usage d'UDF, contraintes et stratégie de migration.</p>
+                        <div class="timeline-tech">
+                            <span>Databricks</span><span>Serverless</span><span>FinOps</span><span>Spark</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" hidden>
+        <img src="" alt="Diagramme d'architecture">
+    </div>
 
     <!-- Education Section -->
     <section id="education" class="section education">

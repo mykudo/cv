@@ -434,3 +434,21 @@ function showSuccessMessage() {
 }
 
 console.log('CV Djilali SAHRAOUI - Light Theme 4 (Tech Professional) Loaded');
+
+/* ============ Lightbox réalisations ============ */
+(function () {
+    const lb = document.getElementById('lightbox');
+    if (!lb) return;
+    const lbImg = lb.querySelector('img');
+    document.querySelectorAll('[data-lightbox]').forEach(a => {
+        a.addEventListener('click', e => {
+            e.preventDefault();
+            lbImg.src = a.getAttribute('href');
+            lb.hidden = false;
+            document.body.style.overflow = 'hidden';
+        });
+    });
+    const close = () => { lb.hidden = true; lbImg.src = ''; document.body.style.overflow = ''; };
+    lb.addEventListener('click', close);
+    document.addEventListener('keydown', e => { if (e.key === 'Escape' && !lb.hidden) close(); });
+})();
