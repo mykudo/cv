@@ -11,6 +11,7 @@ const translations = {
         "nav.skills": "Compétences",
         "nav.experience": "Expériences",
         "nav.works": "Réalisations",
+        "nav.certifications": "Certifications",
         "nav.education": "Formation",
         "works.title": "Réalisations d'architecture",
         "works.note": "Schémas issus de missions réelles, anonymisés. Cliquer pour agrandir.",
@@ -127,6 +128,10 @@ const translations = {
         "exp.agb.item5": "Développement de composants modulaires avec MEF, instrumentation via Enterprise Library et traçabilité avec ETW",
 
         // Education
+        "certifications.heading": "Mes Certifications",
+        "certifications.obtained": "Obtenue",
+        "certifications.valid": "Valide jusqu'au",
+        "certifications.verify": "Vérifier le credential",
         "education.tag": "&lt;education&gt;",
         "education.title": "Formation",
         "education.heading": "Mon Parcours Académique",
@@ -157,6 +162,7 @@ const translations = {
         "nav.skills": "Skills",
         "nav.experience": "Experience",
         "nav.works": "Case studies",
+        "nav.certifications": "Certifications",
         "nav.education": "Education",
         "works.title": "Architecture case studies",
         "works.note": "Diagrams from real assignments, anonymized. Click to enlarge.",
@@ -273,6 +279,10 @@ const translations = {
         "exp.agb.item5": "Development of modular components with MEF, instrumentation via Enterprise Library and tracing with ETW",
 
         // Education
+        "certifications.heading": "My Certifications",
+        "certifications.obtained": "Earned",
+        "certifications.valid": "Valid until",
+        "certifications.verify": "Verify credential",
         "education.tag": "&lt;education&gt;",
         "education.title": "Education",
         "education.heading": "My Academic Background",
