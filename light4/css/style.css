@@ -1729,8 +1729,8 @@ img {
 .certs__grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
 .cert-card { display: flex; gap: 24px; align-items: flex-start; background: #fff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 24px; box-shadow: 0 1px 3px rgba(15,23,42,.06); transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease; }
 .cert-card:hover { transform: translateY(-4px); box-shadow: 0 12px 28px -8px rgba(15,23,42,.12); border-color: #cbd5e1; }
-.cert-card__badge { flex: 0 0 120px; height: 150px; display: flex; align-items: center; justify-content: center; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 10px; }
-.cert-card__badge img { max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; }
+.cert-card__badge { flex: 0 0 148px; height: 150px; display: flex; align-items: center; justify-content: center; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 10px; }
+.cert-card__badge img { max-width: 100%; max-height: 128px; width: auto; height: auto; object-fit: contain; }
 .cert-card__body { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 10px; }
 .cert-card__issuer { margin: 0; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; color: #06b6d4; text-transform: uppercase; letter-spacing: .06em; }
 .cert-card__name { margin: 0; font-size: 18px; font-weight: 600; line-height: 1.35; text-wrap: pretty; }
@@ -1742,4 +1742,4 @@ img {
 .cert-card__link:hover { background: #dbeafe; border-color: #bfdbfe; }
 .cert-card__link:focus-visible { outline: 2px solid #2563eb; outline-offset: 2px; }
 @media (max-width: 860px) { .certs__grid { grid-template-columns: 1fr; } }
-@media (max-width: 480px) { .certs { padding: 64px 0; } .certs__container { padding: 0 16px; } .cert-card { flex-direction: column; } .cert-card__badge { flex-basis: auto; width: 120px; } }
+@media (max-width: 480px) { .certs { padding: 64px 0; } .certs__container { padding: 0 16px; } .cert-card { flex-direction: column; } .cert-card__badge { flex-basis: auto; width: 148px; } }
