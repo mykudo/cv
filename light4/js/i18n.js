@@ -128,6 +128,7 @@ const translations = {
         "exp.agb.item5": "Développement de composants modulaires avec MEF, instrumentation via Enterprise Library et traçabilité avec ETW",
 
         // Education
+        "hero.certified": "certifié",
         "certifications.heading": "Mes Certifications",
         "certifications.obtained": "Obtenue",
         "certifications.valid": "Valide jusqu'au",
@@ -279,6 +280,7 @@ const translations = {
         "exp.agb.item5": "Development of modular components with MEF, instrumentation via Enterprise Library and tracing with ETW",
 
         // Education
+        "hero.certified": "certified",
         "certifications.heading": "My Certifications",
         "certifications.obtained": "Earned",
         "certifications.valid": "Valid until",
